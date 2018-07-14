@@ -4,21 +4,11 @@ Hi! what is **SANA** you ask..? She is an automated text to speech AI that can r
 
 Text to Speech generation nowadays are done via one singular tone. There are no expression and it sounds very robotic. SANA on the other hand is 100% robotic but the way she manipulates her voice to create "fake" emotion is what matters and makes it sound realistic.
 
-```mermaid
-graph LR
-A[String] -- POST --> B[Processing the text for emotion]
-B -- POST --> C[SANA receives processed text and generates response]
-C -- POST --> D[Text 2 Speech Generation]
-```
+![Processing of SANA](https://i.imgur.com/XjyOwqd.png)
+
 
 ### Example
-Given the following String with different 'text' tones, SANA will produce different voice expression: `hi, my name is Sana`.
-|                |Text Tones                          |Sana Expression                         |
-|----------------|-------------------------------|-----------------------------|
-|All Capital|`'HI! MY NAME IS SANA'`            |<low pitch, heavy enthusiasm>            |
-|Sad expression          |`hi... my name.. is Sana..`            |<high pitch, quiet voice with many uncertainty>            |
-|Excited Expression          |`Hi! My name is Sana!`|<mid pitch, fast break time> |
-
+![T2S SANA](https://i.imgur.com/nAwdzNp.png)
 
 # General Overview
 
@@ -42,9 +32,7 @@ While text to speech has benefits for all users, some of the specific groups tha
 ### Test of SANA
 We can evaluate the expression of SANA with MOS model. MOS gives a numerical indication of the quality of the synthesized speech. In this method, focus of evaluator should be on naturalness of synthetic speech. By Naturalness it is meant that the sound is indistinguishable from human speech and it is close to human voice.
 
-$$
-MOS =  \frac{ \sum_{j=1}^M ( \frac{ \sum_{i=1}^N  S_{ij}  }{N} ) }{M} 
-$$
+![Sana MOS](https://i.imgur.com/PDeCGAG.png)
 
 S(i) Score of i'th evaluator 
 N = # of Evaluators 
