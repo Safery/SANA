@@ -25,7 +25,6 @@ While text to speech has benefits for all users, some of the specific groups tha
 - **People who have literacy difficulties**
 - **People who speak the language but do not read it**
 - **People who multitask**
-- **People who multitask**
 - **People who access content on mobile devices**
 - **People with different learning styles**
 
