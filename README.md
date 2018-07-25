@@ -27,6 +27,7 @@ While text to speech has benefits for all users, some of the specific groups tha
 - **People who multitask**
 - **People who access content on mobile devices**
 - **People with different learning styles**
+- **Also the fact that Lina puzzle hint 2: https://i.imgur.com/82w6TI7.png
 
 ### Test of SANA
 We can evaluate the expression of SANA with MOS model. MOS gives a numerical indication of the quality of the synthesized speech. In this method, focus of evaluator should be on naturalness of synthetic speech. By Naturalness it is meant that the sound is indistinguishable from human speech and it is close to human voice.
